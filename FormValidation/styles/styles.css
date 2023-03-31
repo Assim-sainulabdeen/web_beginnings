@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f2796e;
+}
+
+.container{
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    margin: 10PX auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form div input, select{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    padding: 0 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+select, textarea{
+    display: inline-block;
+}
+textarea{
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+div input[type="radio"]{
+    width: 3%;
+    height:fit-content;
+    box-shadow: none;
+    display: inline-block;
+    
+}
+.identity div {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.identity input{
+    margin-left: 60px;
+}
+
+.identity .sameline{
+  display: inline;  
+}
+
+.identity i{
+    padding:0;
+    margin-left: 30px;
+}
+
+form div {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+form div i {
+    position: absolute;
+    padding: 10px;
+}
+
+.failure-icon,
+.error {
+  color: red;
+}
+
+.success-icon {
+  color: green;
+}
+
+.error {
+  margin-top: 5px;
+}
+
+.success-icon,
+.failure-icon {
+  right: 0;
+  opacity: 0;
+}
+
+.common{
+    opacity: 1;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    background-color: #f2796e;
+    border: 2px solid #f2796e;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+input[type="file"] {
+    height:auto;
+    padding: 10px 30px;
+}
+
+span{
+    margin-bottom: 5px;
+    display:inline-block;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.common{
+    opacity: 1;
+}
+
+.failure{
+    opacity: 0;
+}
+
+.border{
+    border: 1px solid red;;
+}
+
+.no-border{
+    border: 2px solid #c4c4c4;
+}

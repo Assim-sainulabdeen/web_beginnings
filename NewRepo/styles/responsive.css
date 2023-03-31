@@ -1,0 +1,1049 @@
+@media screen and (max-width: 1280px) {
+  .left-navbar {
+    padding-left: 10px;
+  }
+  .image {
+    width: 15%;
+  }
+
+  .profile-button {
+    width: 15%;
+  }
+
+  .badges {
+    float: none;
+    width: 100%;
+  }
+
+  .flex-item {
+    float: none;
+    display: block;
+  }
+
+  .gold-badge {
+    width: 48%;
+  }
+  #bronze-badge {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 34px;
+  }
+
+  .badge-date1 {
+    float: right;
+    clear: both;
+  }
+
+  .badge-icon {
+    width: 16%;
+  }
+  .bronze {
+    width: 8%;
+  }
+  .post-msg {
+    width: 6%;
+  }
+
+  .post-number {
+    width: 6%;
+  }
+
+  .post-text {
+    width: 72%;
+  }
+
+  .post-date {
+    width: 16%;
+  }
+  .topMetaMsg {
+    width: 5%;
+  }
+  .topMetaNum {
+    width: 5%;
+  }
+  .topMetaText {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .image {
+    width: 16%;
+  }
+
+  .profile-body {
+    width: 65%;
+  }
+
+  .profile-button {
+    width: 18%;
+  }
+
+  .left-navbar {
+    padding-left: 0;
+  }
+  .explore {
+    padding-right: 0px;
+  }
+  .post-number {
+    width: 7%;
+  }
+
+  .post-text {
+    width: 72%;
+  }
+
+  .post-date {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  #silver-badge {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  * {
+    box-sizing: border-box;
+  }
+  .stack,
+  .left-navbar {
+    margin-left: 10px;
+  }
+
+  .search {
+    width: 52%;
+  }
+  .name,
+  .fa-inbox {
+    margin-left: 0;
+  }
+  .inbox,
+  .trophy,
+  .help,
+  .communication {
+    width: 4%;
+  }
+  .left-navbar {
+    width: 16%;
+    position: sticky;
+    float: left;
+  }
+
+  .collectives,
+  .teams,
+  .create,
+  .explore {
+    display: flex;
+  }
+
+  .main {
+    width: 82%;
+    margin-left: 0;
+    float: left;
+  }
+
+  .collectives .fa-circle-info {
+    padding-left: 25px;
+  }
+
+  .teams .fa-circle-info {
+    padding-left: 63px;
+  }
+  .create .fa-suitcase {
+    margin-right: 5px;
+  }
+  .profile {
+    display: flex;
+  }
+
+  /* profile */
+
+  .image {
+    width: 20%;
+  }
+  .profile-body {
+    width: 65%;
+  }
+  .profile-name,
+  .profile-education,
+  .profile-location,
+  .profile-details {
+    margin-left: 0px;
+  }
+  .profile-button {
+    width: 15%;
+  }
+
+  .profile-btn {
+    margin-right: 20px;
+  }
+  .main-content {
+    margin-right: 0;
+    width: 99%;
+  }
+
+  .main-content-left {
+    width: 28%;
+  }
+
+  .main-middle {
+    width: 72%;
+  }
+
+  .badges {
+    float: none;
+    width: 100%;
+  }
+
+  .gold-badge {
+    width: 47%;
+  }
+  #bronze-badge {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 34px;
+  }
+
+  #silver-badge {
+    margin-left: 30px;
+  }
+  .badge-list div:nth-child(1) {
+    width: 115px;
+  }
+  .badge-list div:nth-child(2) {
+    width: 123px;
+  }
+  .badge-list div:nth-child(3) {
+    width: 128px;
+  }
+  .bronze-list div:nth-child(1) {
+    width: 146px;
+  }
+  .bronze-list div:nth-child(2) {
+    width: 100px;
+  }
+  .bronze-list div:nth-child(3) {
+    width: 73px;
+  }
+  .silver-list div:nth-child(1) {
+    width: 95px;
+  }
+
+  .silver-list div:nth-child(2) {
+    width: 110px;
+  }
+  .silver-list div:nth-child(3) {
+    width: 92px;
+  }
+
+  .flex-item {
+    display: inline-block;
+  }
+  .badge-date1 {
+    float: right;
+    clear: both;
+  }
+  .badge-icon {
+    width: 17%;
+  }
+
+  .bronze {
+    width: 8%;
+  }
+  .post-right span {
+    padding: 3px 0;
+  }
+  .posts-left {
+    width: 45%;
+  }
+  .post-right {
+    width: 55%;
+  }
+
+  .post-number {
+    width: 9%;
+  }
+
+  .post-text {
+    width: 67%;
+  }
+
+  .post-date {
+    width: 18%;
+  }
+  .topMetaMsg {
+    width: 7%;
+  }
+  .topMetaNum {
+    width: 8%;
+  }
+  .topMetaText {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  * {
+    box-sizing: border-box;
+  }
+  .stack,
+  .left-navbar {
+    margin-left: 10px;
+  }
+
+  .search {
+    width: 52%;
+  }
+  .name,
+  .fa-inbox {
+    margin-left: 0;
+  }
+  .inbox,
+  .trophy,
+  .help,
+  .communication {
+    width: 4%;
+  }
+  .prof-pic {
+    width: 96px;
+    height: 96px;
+  }
+
+  .profile {
+    display: block;
+  }
+  .image {
+    width: 100%;
+    float: left;
+  }
+  .prof-pic {
+    width: 96px;
+    height: 96px;
+  }
+  .profile {
+    margin-top: 20px;
+  }
+  .profile-body {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
+  .profile-btn {
+    margin-right: 30px;
+  }
+  .profile-button {
+    position: absolute;
+    top: 90px;
+    right: 1px;
+  }
+
+  .profile-name,
+  .profile-education,
+  .profile-details,
+  .profile-location {
+    margin-left: 15px;
+  }
+
+  .main-content {
+    margin-right: 0px;
+    display: inline-block;
+  }
+
+  .main-content-left {
+    display: inline;
+    width: 100%;
+  }
+  .stats {
+    width: 100%;
+  }
+  .stats-chara {
+    width: 94%;
+    display: flex;
+  }
+  .communities-contents {
+    width: 94%;
+  }
+
+  .reached {
+    width: 16%;
+  }
+  .reputation {
+    width: 14%;
+  }
+  .main-middle {
+    width: 97%;
+  }
+
+  .flex-item {
+    width: 100%;
+  }
+
+  .left-navbar {
+    width: 17%;
+  }
+  .main {
+    width: 81%;
+  }
+
+  .link1 {
+    margin-right: 0;
+  }
+
+  .footer-items {
+    padding-right: 0;
+  }
+
+  footer {
+    width: 100%;
+    display: block;
+  }
+  .link1 ul,
+  .link2 ul {
+    padding-left: 0;
+  }
+  .post-number {
+    padding: 6px 0;
+    width: 6%;
+  }
+
+  .footer-items li {
+    float: left;
+    padding: 8px;
+  }
+
+  ul li.footer-title {
+    clear: both;
+    float: none;
+    clear: both;
+  }
+  .link2 {
+    margin-top: 100px;
+  }
+  .footer-description {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 706px) {
+  #silver-badge {
+    margin-left: 18px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .left-navbar {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 639px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .stack,
+  .left-navbar {
+    margin-left: 0;
+  }
+  .stack {
+    margin-left: 10px;
+  }
+
+  .input,
+  .number {
+    display: none;
+  }
+  .search {
+    width: 45%;
+    margin-left: 0;
+    padding: 12px 0px;
+    background: url("../assets/icons/search2.png") no-repeat right center;
+    background-size: 24px;
+    background-position-x: 100%;
+  }
+
+  .name {
+    margin-left: 0px;
+  }
+  .inbox,
+  .trophy,
+  .help,
+  .communication {
+    width: 4%;
+  }
+
+  .left-navbar {
+    width: 22%;
+    position: sticky;
+    float: left;
+  }
+
+  .main {
+    width: 78%;
+    margin-left: 0;
+    float: left;
+    position: relative;
+  }
+
+  .collectives,
+  .teams,
+  .create,
+  .explore {
+    display: flex;
+  }
+
+  .collectives .fa-circle-info {
+    padding-left: 25px;
+  }
+
+  .teams .fa-circle-info {
+    padding-left: 63px;
+  }
+  .create .fa-suitcase {
+    margin-right: 5px;
+  }
+  .profile {
+    display: block;
+  }
+  .image {
+    width: 100%;
+    float: left;
+  }
+  .prof-pic {
+    width: 96px;
+    height: 96px;
+  }
+
+  .profile-body {
+    width: 100%;
+    display: block;
+  }
+  .profile-button {
+    width: 40%;
+    position: absolute;
+    top: 12px;
+    right: 1px;
+  }
+  .profile-btn {
+    margin-right: 30px;
+  }
+
+  .main-content {
+    width: 97%;
+    margin-right: 0px;
+    display: inline-block;
+  }
+
+  .main-content-left {
+    display: inline;
+    width: 100%;
+  }
+  .stats-chara {
+    width: 97%;
+    display: flex;
+  }
+  .communities-contents {
+    width: 97%;
+  }
+
+  .reached {
+    width: 16%;
+  }
+  .reputation {
+    width: 14%;
+  }
+
+  .reputation-number,
+  .reached-number {
+    font-size: 16px;
+  }
+
+  .reputation,
+  .reached,
+  .achievements {
+    margin: 8px 0px 8px 12px;
+  }
+  .achievements {
+    width: 36%;
+    margin-top: 6px;
+  }
+
+  .main-middle {
+    width: 100%;
+  }
+  .badges {
+    float: none;
+    width: 100%;
+  }
+
+  .gold-badge {
+    width: 47%;
+  }
+  #bronze-badge {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .badge-list div:nth-child(1) {
+    width: 115px;
+  }
+  .badge-list div:nth-child(2) {
+    width: 123px;
+  }
+  .badge-list div:nth-child(3) {
+    width: 128px;
+  }
+  .bronze-list div:nth-child(1) {
+    width: 146px;
+  }
+  .bronze-list div:nth-child(2) {
+    width: 100px;
+  }
+  .bronze-list div:nth-child(3) {
+    width: 73px;
+  }
+  .silver-list div:nth-child(1) {
+    width: 95px;
+  }
+
+  .silver-list div:nth-child(2) {
+    width: 110px;
+  }
+  .silver-list div:nth-child(3) {
+    width: 92px;
+  }
+  .badge-icon {
+    width: 21%;
+  }
+
+  .bronze {
+    width: 10%;
+  }
+  .flex-item {
+    display: inline-block;
+  }
+  .badge-date1 {
+    float: right;
+    clear: both;
+  }
+  .posts-left {
+    width: 100%;
+  }
+  .post-right {
+    margin-top: 5px;
+  }
+  .post-nav {
+    float: left;
+  }
+  .post-nav2 {
+    float: right;
+    margin-right: 20px;
+  }
+  .post-msg {
+    width: 7%;
+  }
+  .post-number {
+    width: 8%;
+  }
+  .post-text {
+    width: 65%;
+  }
+  .post-date {
+    width: 20%;
+  }
+
+  .topMetaText {
+    width: 85%;
+  }
+  .link1 {
+    margin-right: 0;
+  }
+
+  .footer-items {
+    padding-right: 0;
+  }
+
+  footer {
+    width: 100%;
+    display: block;
+  }
+  .link1 ul,
+  .link2 ul {
+    padding-left: 0;
+  }
+
+  .footer-items li {
+    float: left;
+    padding: 8px;
+  }
+
+  ul li.footer-title {
+    clear: both;
+    float: none;
+    clear: both;
+  }
+  .link2 {
+    margin-top: 100px;
+  }
+  .footer-description {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .post-right span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  * {
+    box-sizing: border-box;
+  }
+  .logo .stack,
+  .left-navbar,
+  .input,
+  .number,
+  .profile-button,
+  .footer-logo {
+    display: none;
+  }
+  body {
+    width: 100%;
+  }
+  .main-content {
+    width: 100%;
+  }
+
+  .logo {
+    width: 20%;
+    background: url(../assets/icons/bar-menu.png) no-repeat left center,
+      url(../assets/icons/stack.png) no-repeat right center;
+    background-size: 20px, 28px;
+    background-position-x: 22%, 94%;
+  }
+
+  .products {
+    padding: 6px 12px;
+    font-size: 11px;
+    margin-left: 0px;
+  }
+
+  .search {
+    width: 30%;
+    margin-left: 0;
+    padding: 12px 0px;
+    background: url("../assets/icons/search2.png") no-repeat center center;
+    background-size: 24px;
+    background-position-x: 85%;
+  }
+  .name {
+    margin-left: 0;
+  }
+
+  .inbox,
+  .trophy,
+  .help,
+  .communication {
+    width: 6%;
+  }
+  .left-navbar {
+    width: 0;
+  }
+  .main {
+    width: 100%;
+    margin-left: 0;
+  }
+  .prof-pic {
+    width: 64px;
+    height: 64px;
+  }
+  .image {
+    width: 100%;
+    float: none;
+  }
+  .profile-button {
+    float: none;
+  }
+
+  .profile {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .profile-body {
+    width: 98%;
+    margin: 8px 0px 8px 8px;
+  }
+
+  .profile-name,
+  .profile-education,
+  .profile-details,
+  .profile-location {
+    font-size: 24px;
+    margin-left: 8px;
+  }
+  .profile-education {
+    font-size: 18px;
+  }
+  .profile-details,
+  .profile-location {
+    font-size: 12px;
+  }
+  .fa-clock {
+    font-size: 14px;
+  }
+  .main-content-left,
+  .main-middle {
+    float: none;
+    width: 100%;
+  }
+
+  .stats,
+  .community,
+  .badges,
+  .top-posts,
+  .topMetaPosts,
+  .post-main,
+  .topMeta,
+  .topNetPost {
+    width: 100%;
+  }
+  .communities-contents {
+    width: 90%;
+  }
+  .top-tags,
+  .post-table {
+    width: 100%;
+  }
+  .stats-chara {
+    display: flex;
+    padding: 8px;
+    width: 95%;
+  }
+
+  .stats-chara div.reputation:nth-child(1) {
+    width: 15%;
+  }
+  .reached {
+    width: 16%;
+  }
+  .reputation {
+    width: 14%;
+  }
+
+  .reputation-number,
+  .reached-number {
+    font-size: 14px;
+  }
+
+  .reputation,
+  .reached,
+  .achievements {
+    margin: 8px 0px 8px 8px;
+  }
+  .achievements {
+    width: 36%;
+    margin-top: 6px;
+  }
+  .main-content {
+    width: 95%;
+    display: block;
+    margin: 15px 0 0 15px;
+  }
+
+  .reputation-text,
+  .reached-text,
+  .achievements-text {
+    font-size: 11px;
+  }
+
+  .opacity2 {
+    display: none;
+  }
+  .main-middle {
+    padding: 12px 0;
+  }
+
+  .gold-badge {
+    margin-left: 0;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .badge-date {
+    margin-bottom: 0px;
+  }
+  .badge-icon {
+    width: 11%;
+  }
+
+  #bronze-badge {
+    width: 100%;
+  }
+
+  #silver-badge,
+  #bronze-badge {
+    margin-left: 0;
+  }
+  .flex-item {
+    display: block;
+  }
+  .badges {
+    float: none;
+  }
+  .badge-date1 {
+    padding-bottom: 9px;
+    clear: both;
+    float: right;
+    clear: both;
+  }
+
+  .badge-list div:nth-child(1) {
+    width: 115px;
+  }
+
+  .badge-list div:nth-child(2) {
+    width: 123px;
+  }
+  .badge-list div:nth-child(3) {
+    width: 128px;
+  }
+  .silver-list div:nth-child(1) {
+    width: 94px;
+  }
+
+  .silver-list div:nth-child(2) {
+    width: 110px;
+  }
+
+  .silver-list div:nth-child(3) {
+    width: 93px;
+  }
+
+  .bronze-list div:nth-child(1) {
+    width: 145px;
+  }
+  .bronze-list div:nth-child(2) {
+    width: 100px;
+  }
+  .bronze-list div:nth-child(3) {
+    width: 75px;
+  }
+  .post-count {
+    font-size: 14px;
+    color: #232629;
+  }
+  .tags2,
+  .view {
+    margin-bottom: 5px;
+  }
+
+  .top-posts {
+    display: block;
+  }
+
+  .data-text {
+    font-size: 14px;
+    padding-left: 8px;
+  }
+  .posts-left {
+    width: 100%;
+  }
+
+  .data button {
+    padding: 8px 8px;
+  }
+
+  #button-data,
+  #button-data1,
+  #button-data2 {
+    padding: 8px 5px;
+  }
+
+  button.new-btn2 {
+    padding: 6px 10px;
+  }
+  button.new-btn {
+    padding: 6px 14px;
+  }
+
+  .post-msg {
+    width: 7%;
+  }
+  .post-number {
+    width: 8%;
+  }
+  .post-text {
+    width: 65%;
+  }
+  .post-date {
+    width: 20%;
+  }
+
+  .topMetaText {
+    width: 85%;
+  }
+  footer {
+    width: 100%;
+    display: block;
+  }
+  .link1 ul,
+  .link2 ul {
+    padding-left: 0;
+  }
+
+  .footer-items li {
+    float: left;
+    padding: 8px;
+  }
+
+  ul li.footer-title {
+    clear: both;
+    float: none;
+    clear: both;
+  }
+  .link2 {
+    margin-top: 100px;
+  }
+  .footer-description {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .inbox,
+  .trophy,
+  .help,
+  .communication {
+    width: 7%;
+  }
+
+  .search {
+    width: 20%;
+  }
+
+  .post-msg {
+    width: 7%;
+  }
+  .post-number {
+    width: 10%;
+  }
+  .post-text {
+    width: 62%;
+  }
+  .post-date {
+    width: 21%;
+    padding-left: 0;
+  }
+  .badge-icon {
+    width: 14%;
+  }
+}

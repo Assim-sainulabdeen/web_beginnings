@@ -1,0 +1,609 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.fa-heart,
+.fa-bag-shopping,
+.fa-circle-user {
+  font-size: 18px;
+}
+.nav-padding {
+  padding: 8px 7px 30px;
+  margin-top: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 4px solid transparent;
+  color: #282c3f;
+  letter-spacing: 0.3px;
+}
+.searchBar {
+  border: none;
+  outline: none;
+  width: 81%;
+  padding-left: 12px;
+  background-color: #f5f5f6;
+  font-size: 14px;
+}
+.searchBar:focus {
+  border: none;
+  outline: none;
+}
+
+#form {
+  background-color: #f5f5f6;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 80%;
+}
+.fa-magnifying-glass {
+  color: #a9aab7;
+}
+.navbar-icons {
+  padding-right: 20px;
+}
+.navbar-icon-font {
+  font-size: 12px;
+}
+
+#headingSection {
+  background-color: white;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+  padding: 20px 0;
+}
+.new {
+  color: #ff69b4;
+  font-size: 10px;
+}
+.men:hover {
+  border-bottom: 4px solid #ee5f73;
+}
+
+.women:hover {
+  border-bottom: 4px solid #fb56c1;
+}
+
+.kids:hover {
+  border-bottom: 4px solid #f26a10;
+}
+
+.home:hover {
+  border-bottom: 4px solid #f2c210;
+}
+
+.beauty:hover {
+  border-bottom: 4px solid #0db7af;
+}
+.studio:hover {
+  border-bottom: 4px solid #ff3f6c;
+}
+.pointer {
+  cursor: pointer;
+}
+.men-dress-details {
+  position: absolute;
+  z-index: -1030;
+  top: 100%;
+  left: 10%;
+  background-color: white;
+  box-shadow: 0 0 8px #a6a0a0;
+  display: none;
+}
+.men:hover .men-dress-details,
+.women:hover .men-dress-details,
+.kids:hover .men-dress-details,
+.beauty:hover .men-dress-details,
+.home:hover .men-dress-details {
+  display: block;
+}
+.headerColor {
+  color: #ee5f73;
+}
+.headerColor1 {
+  color: #fb56c1;
+}
+.headerColor2 {
+  color: #f26a10;
+}
+.headerColor3 {
+  color: #f2c210;
+}
+.headerColor4 {
+  color: #0db7af;
+}
+
+.headerRule {
+  width: 90%;
+  color: #eaeaec;
+  opacity: 0.8;
+}
+.desktopHoverLink {
+  font-weight: lighter;
+}
+.desktopHoverLink:hover {
+  font-weight: 600;
+  color: #282c3f;
+}
+.header {
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.studio-details {
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  background-color: white;
+  box-shadow: 0 0 8px #a6a0a0;
+  display: none;
+}
+.studio:hover .studio-details {
+  display: block;
+}
+
+.offcanvas-body .canvas-color {
+  color: #282c3f;
+  font-weight: 600;
+  font-size: 14px;
+}
+.offcanvas-body .canvas-color:hover {
+  color: #282c3f;
+}
+#demo {
+  width: 300px;
+}
+
+#crumb {
+  margin-top: 100px;
+}
+.text-size {
+  font-weight: 600;
+}
+.breadcrumb a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.breadcrumb a:hover {
+  text-decoration: none;
+  color: #282c3f;
+}
+div .imagePadding {
+  margin-top: 13px;
+}
+.img-transition {
+  cursor: zoom-in;
+  transition: transform 0.4s;
+}
+.img-transition:hover {
+  transform: scale(1.02);
+}
+.productTitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+.productName {
+  font-size: 20px;
+  color: #535665;
+  opacity: 0.8;
+  font-weight: 400;
+}
+#rating {
+  margin: 0;
+  padding-right: 0;
+  margin-top: 15px;
+}
+#rating-cont {
+  border: 1px solid #eaeaec;
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin: 0;
+}
+
+.overallRating {
+  font-size: 16px;
+  font-weight: 500;
+}
+.color {
+  color: #282c3f;
+}
+.pointer {
+  cursor: pointer;
+}
+.fa-star {
+  color: #14958f;
+}
+.seperator {
+  color: #d4d5d9;
+  margin-left: 8px;
+}
+.ratingCount {
+  color: #535766;
+}
+hr {
+  width: 90%;
+}
+.productPrice {
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 20px;
+  line-height: 1;
+}
+.productDiscount {
+  color: #ff905a;
+  opacity: 1;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+.productDetails {
+  margin-bottom: 0;
+}
+.productCurrency {
+  font-size: 14px;
+  color: #03a685;
+  font-weight: 500;
+}
+
+.font-details {
+  font-size: 16px;
+  font-weight: 700;
+}
+.sizeButtons {
+  color: #ff3e6c;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 700;
+}
+.btn1 {
+  margin: 10px 10px 10px 0;
+}
+.button {
+  border: 1px solid #bfc0c6;
+  border-radius: 50px;
+  padding: 0;
+  min-width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  color: #282c3f;
+  background-color: transparent;
+}
+.hover2:hover {
+  border: 1px solid #ff3e6c;
+}
+.button p {
+  margin-bottom: 0;
+}
+.col .btn-shopping {
+  border: none;
+  background-color: #ff4c68;
+  border: 1px solid #ff4c68;
+  padding: 10px 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.col .btn-shopping .fa-bag-shopping {
+  padding-right: 10px;
+}
+.col .btn-shopping:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.col .btn-wishlist {
+  background-color: white;
+  border: 1px solid #d4d5d9;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.col .btn-wishlist:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+.deliveryOptions {
+  font-size: 16px;
+}
+
+.deliveryPincode {
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid #bfc0c6;
+  width: 60%;
+}
+.deliveryPincode input {
+  border: none;
+}
+.deliveryPincode input:focus {
+  border: none;
+  outline: none;
+}
+.deliveryPincode button {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #ff3e6c;
+  font-size: 13px;
+  font-weight: 500;
+}
+.availability {
+  font-size: 13px;
+  margin: 8px 0 0;
+}
+.productInfo {
+  margin: 5px 0;
+  font-weight: 300;
+}
+.productDeliveryDetails {
+  margin-top: 25px;
+}
+.offers {
+  margin-top: 40px;
+}
+.row .emi {
+  margin-top: 15px;
+}
+.emiRate {
+  font-size: 14px;
+  margin: 6px 0 4px;
+}
+.emiPlan {
+  color: #ff3e6c;
+  font-weight: 600;
+}
+.featureList {
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.sizespecs {
+  margin-bottom: 0;
+}
+.specsDetail {
+  color: #7e818c;
+  font-size: 12px;
+  line-height: 1;
+  margin: 7px 0 5px;
+}
+.offerTitle {
+  color: #ff905a;
+  font-weight: 500;
+}
+.offerList {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.heding-tag {
+  margin-bottom: 0;
+}
+.paraDetails {
+  margin-bottom: 2px;
+}
+.horizontalRule {
+  margin-top: 6px;
+  opacity: 0.8;
+  color: #eaeaec;
+}
+.specs-tag {
+  margin-bottom: 3px;
+}
+.seeMore {
+  margin-top: 20px;
+  width: 96%;
+}
+
+#review {
+  margin-top: 15px;
+}
+
+.reviewRating {
+  font-size: 48px;
+}
+.reviewIcon .fa-star {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.reviewCount {
+  font-size: 14px;
+}
+.reviewBorder {
+  border-right: 1px solid #eaeaec;
+}
+.iconShow {
+  opacity: 0.8;
+}
+.ratingStar .fa-star {
+  font-size: 10px;
+  color: #a9abb3;
+}
+.progressBar {
+  vertical-align: middle;
+  margin-left: 3px;
+  margin-top: 6px;
+  width: 50%;
+}
+.progressBar .progress {
+  height: 4px;
+  width: 100%;
+  margin-top: 3px;
+}
+.progress .progress-bar {
+  width: 60%;
+  background-color: #14958f;
+}
+.progress2 .progress-bar {
+  width: 20%;
+}
+.progress3 .progress-bar {
+  width: 10%;
+  background-color: #72bfbc;
+}
+.progress4 .progress-bar {
+  width: 5%;
+  background-color: #fcb301;
+}
+.progress5 .progress-bar {
+  width: 8%;
+  background-color: #f16565;
+}
+.ratingText {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.ratingTextCount {
+  font-size: 12px;
+}
+.progressBar2 {
+  width: 100%;
+}
+.progressBar2 .progress {
+  width: 90%;
+}
+
+#customerReview,
+#customerReview3 {
+  padding-right: 0;
+}
+#customerReview2,
+#customerReview4 {
+  padding-left: 0;
+  margin-top: 11px;
+}
+.progressBar3 .progress-bar {
+  width: 70%;
+}
+
+.review {
+  color: white;
+  background-color: #72bfbc;
+  font-size: 10px;
+  padding: 0 4px;
+}
+
+.review .fa-star {
+  color: white;
+  font-size: 8px;
+}
+
+.userRating {
+  width: 10%;
+}
+.userReview {
+  width: 90%;
+}
+.clear {
+  clear: both;
+}
+.horiozontalRule {
+  width: 100%;
+}
+.like {
+  transform: rotate(180deg);
+}
+.sellerDetails {
+  margin-bottom: 8px;
+}
+.fontWeight {
+  font-weight: 500;
+}
+.fontWeight2 {
+  font-weight: 700;
+}
+.cardTextColor {
+  color: #535766;
+}
+.cardProduct {
+  padding: 0 3px 0 0;
+}
+h5.card-title {
+  margin-bottom: 4px;
+}
+.productDiscount {
+  padding: 0 3px;
+  font-weight: 700;
+}
+
+.cardImage {
+  position: relative;
+}
+.cardItemRating {
+  position: absolute;
+  background-color: white;
+  top: 94%;
+  left: 3%;
+  font-size: 9px;
+  padding: 0px 2px;
+}
+div .card:hover {
+  box-shadow: 0px 0px 18px #c8c8cc;
+}
+
+.moreShirts {
+  border: 1px solid #c7c8cd;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 22px;
+}
+.moreShirts:hover {
+  border: 1px solid #ff3e6c;
+}
+.hrMargin {
+  margin: 0;
+}
+.hrWidth {
+  width: 100%;
+}
+.fontSize {
+  font-size: 15px;
+}
+
+.anchorColor {
+  color: #696b79;
+}
+
+footer a:hover {
+  color: #696b79;
+}
+.footerButton {
+  background-color: red;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 0 4px;
+}
+.playstore-image {
+  height: 42px;
+  width: 100%;
+}
+
+.footerIconColor {
+  color: #66686e;
+}
+.search {
+  width: 12%;
+}
+.hrSearch {
+  width: 80%;
+  left: 12%;
+  top: -5px;
+}
+.footer-links a {
+  padding-right: 4px;
+  line-height: 20px;
+}
+.desktopContact {
+  color: #526cd0;
+}
+.desktopContact:hover {
+  color: #526cd0;
+}

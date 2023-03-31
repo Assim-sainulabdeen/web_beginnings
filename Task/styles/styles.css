@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-size: 18px;
+}
+.time{
+    font-size: 12px;
+    padding-left: 5px;
+    color:#a5adc2;
+}
+
+.horizontalColoring{
+    color:#a5adc2;
+    margin-bottom: 0;
+}
+.morningRoutine{
+    padding-left: 10px;
+}
+.clear{
+    clear: both;
+}
+.moveLeft{
+    float: left;
+}
+.moveRight{
+    float: right;
+}
+.smallWidth{
+    width: 3%;
+}
+.largeWidth{
+    width: 96%;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+ .fs-12{
+    font-size: 12px;
+}
+.routine{
+    padding-bottom: 5px;
+}
+
+.timeColor{
+    color: #a5a7a8;
+}
+
+.innerTimeWidth{
+    width: 50%;
+}
+.innerTimeWidth2{
+    width: 44.1%;
+}
+.borderColor{
+    border-left: 3px solid #699ecc;
+}
+.bodyBackgrounColor{
+    background-color: #e1ecf4;
+}
+.innerRoutine{
+    left: 53.5%;
+    bottom: 5px;
+}
+
+.paddingLarge{
+    padding-bottom: 10px;
+}
+.paddingBottomTop{
+    padding: 20px 0;;
+}
+.innerRoutine2{
+    top: 25px;
+    left: 53.5%;
+    z-index: 1;
+}
+
+.innerRoutineBottom{
+    bottom: 30px;
+    left: 53.5%;
+}
+.time-12{
+    padding-bottom: 25px;
+}
+
+.plan{
+    padding-bottom: 30px;
+}
